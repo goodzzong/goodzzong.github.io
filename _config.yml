@@ -1,0 +1,30 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+title: goodzzong
+permalink: /:year/:month/:title
+url: http://goodzzong.github.io
+
+# Setup
+description:         '함수형프로그램을 사랑하는 개발자.'
+baseurl:             ''
+
+plugins: [jekyll-paginate]
+paginate: 5
+paginate_path: '/blog/page:num'
+
+# About/contact
+author:
+  name:              Mark Otto
+  url:               https://twitter.com/mdo
+  email:             markdotto@gmail.com
+
+# Custom vars
+version:             1.0.0
+
+# Where are tags and categories displayed
+tag_page: '/blog/tags/'
+category_page: '/blog/categories/'
+
+google_analytics: UA-143335775-1
+disqus_short_name: goodzzong-github-io
