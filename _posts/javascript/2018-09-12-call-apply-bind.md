@@ -8,17 +8,11 @@ categories: Javascript
 tags: [Javascript]
 comments: true
 ---
-
-## call, apply, bind
-
+    
 함수의 메소드에서 중요한 건 **call, apply, bind** 이다.
 
-this 는 기본적으로 window를 가리킨다. 바꿀 수 있는 방법이 몇가지가 있는데 그 중에 하나가 
-
-call, apply, bind 를 이용하는 것이다.
-
-기본적으로 call, apply 는 첫번째 인자로 대체할 this를 담고 두번째인자로 필요한 값을 넣는다.
-
+this 는 기본적으로 window를 가리킨다. 바꿀 수 있는 방법이 몇가지가 있는데 그 중에 하나가 call, apply, bind 를 이용하는 것이다.  
+기본적으로 call, apply 는 첫번째 인자로 대체할 this를 담고 두번째인자로 필요한 값을 넣는다.  
 둘이 차이는 call은 두번째 인자로 값을 구분자로 무한으로 넣는것이고, apply은 배열형태로 두번째 인자를 받는다.
 
 ~~~js
